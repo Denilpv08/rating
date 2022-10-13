@@ -1,0 +1,22 @@
+body {
+    background-color: teal;
+}
+
+.rating {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgb(166, 172, 177);
+    -webkit-mask-image: url(../star.svg);
+    mask-image: url(../star.svg);
+    width: 50px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.item-full {
+    background-color: yellow;
+}
